@@ -1,8 +1,7 @@
 # main.py
-
 from blockchain import BlockchainAuditoria
 from parallelblockchain import ParallelBlockchainAuditoria
-BlockChain = ParallelBlockchainAuditoria
+BlockChain = BlockchainAuditoria
 
 from random import choice, randint
 from time import time
