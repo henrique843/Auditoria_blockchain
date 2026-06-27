@@ -1,4 +1,4 @@
-# blockchain.py
+# parallelblockchain.py
 
 import hashlib
 import time
@@ -30,7 +30,7 @@ class BlocoAuditoria:
             self.nonce += 1
             self.hash = self.calcular_hash()
 
-class BlockchainAuditoria:
+class ParallelBlockchainAuditoria:
     def __init__(self, dificuldade=3):
         self.dificuldade = dificuldade
         self.cadeia = [self.criar_bloco_genesis()]
